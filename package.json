@@ -1,14 +1,13 @@
 {
-  "name": "rmax-visual-generator",
+  "name": "iqc-rmax",
   "version": "1.0.0",
-  "description": "RMAX Visual Generator using iqc-canvas",
-  "main": "server.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "vercel dev",
+    "start": "vercel dev"
   },
   "dependencies": {
-    "express": "^5.1.0",
     "iqc-canvas": "latest"
   }
 }
